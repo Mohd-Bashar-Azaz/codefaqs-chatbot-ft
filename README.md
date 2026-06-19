@@ -56,7 +56,7 @@ Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
 
 *(Add your live deployment link here once hosted, e.g., on Vercel or Netlify)*
 
-**Live Demo:** [Insert Link Here](#)
+**Live Demo:** [https://codefaq-chatbot-ft.vercel.app/](#)
 
 ## 🤝 Contributing
 
