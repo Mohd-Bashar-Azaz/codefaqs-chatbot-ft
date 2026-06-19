@@ -48,12 +48,12 @@ Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
 
 ## 📸 Screenshots
 
-![Chatbot Preview](<img width="958" height="509" alt="image" src="https://github.com/user-attachments/assets/62b8a4da-9f3b-4f23-9da6-40d8198ecdc7" />
-)
+<img width="958" height="509" alt="image" src="https://github.com/user-attachments/assets/62b8a4da-9f3b-4f23-9da6-40d8198ecdc7" />
+
 
 ## 🌐 Deployment Link
 
-**Live Demo:** [https://codefaq-chatbot-ft.vercel.app/](#)
+**Live Demo:** [Clickme!](https://codefaq-chatbot-ft.vercel.app/)
 
 ## 🤝 Contributing
 
