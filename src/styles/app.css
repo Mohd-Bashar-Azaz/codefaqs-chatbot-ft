@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif; /* Keep it very simple */
+  background-color: #f0f2f5; /* Light gray background */
+}
+
+.app {
+  max-width: 600px; /* Make it a bit narrower like a phone */
+  margin: 40px auto; /* Centers the app on the screen */
+  background-color: white; /* White container */
+  padding: 20px;
+  border-radius: 12px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Simple shadow to make it pop */
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333; /* Dark gray text */
+}
+
+.chat-window {
+  height: 400px;
+  overflow-y: auto; /* Adds a scrollbar if messages go out of bounds */
+  border: 1px solid #ccc; /* Simple border */
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 20px;
+  background-color: #fafafa;
+}
+
+.message {
+  margin-bottom: 15px;
+  display: flex; /* Helps align the messages left or right */
+}
+
+/* User messages align to the right */
+.message.user {
+  justify-content: flex-end;
+}
+
+/* Bot messages align to the left */
+.message.bot {
+  justify-content: flex-start;
+}
+
+.message p {
+  padding: 10px 15px;
+  border-radius: 20px; /* Pill shape */
+  max-width: 75%; /* Stops long messages from spanning the whole width */
+}
+
+/* Styling for the user's chat bubble */
+.message.user p {
+  background-color: #0084ff; /* Classic chat blue */
+  color: white;
+}
+
+/* Styling for the bot's chat bubble */
+.message.bot p {
+  background-color: #e4e6eb; /* Light gray */
+  color: black;
+}
+
+.input-container {
+  display: flex;
+  gap: 10px;
+}
+
+input {
+  flex: 1; /* Tells the input to take up all available space */
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 20px; /* Pill shape */
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #0084ff;
+  color: white;
+  border: none;
+  border-radius: 20px; /* Pill shape */
+  cursor: pointer; /* Changes the mouse pointer to a hand */
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #0073e6; /* Slightly darker on hover */
+}
+
+/* Suggestion Buttons Styles */
+.suggestions {
+  display: flex;
+  flex-wrap: wrap; /* Allows buttons to wrap to the next line if there are many */
+  gap: 10px;
+  margin-top: 20px; /* Separates it from the last message */
+  margin-bottom: 10px; /* Small space before the bottom scroll anchor */
+}
+
+.suggestion-btn {
+  background-color: white;
+  color: #0084ff;
+  border: 1px solid #0084ff;
+  padding: 8px 15px;
+  font-size: 14px;
+  border-radius: 20px;
+  transition: all 0.2s ease; /* Makes the color change smooth when hovered */
+}
+
+/* Invert colors when hovering over a suggestion */
+.suggestion-btn:hover {
+  background-color: #0084ff;
+  color: white;
+}
