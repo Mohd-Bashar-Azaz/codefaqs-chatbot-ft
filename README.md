@@ -53,7 +53,7 @@ Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
 
 ## 🌐 Deployment Link
 
-**Live Demo:** [Clickme!](https://codefaq-chatbot-ft.vercel.app/)
+**Live Demo:** [Click me!](https://codefaq-chatbot-ft.vercel.app/)
 
 ## 🤝 Contributing
 
