@@ -48,15 +48,12 @@ Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
 
 ## 📸 Screenshots
 
-*(Replace the placeholder below with an actual screenshot of your chatbot)*
+<img width="958" height="509" alt="image" src="https://github.com/user-attachments/assets/62b8a4da-9f3b-4f23-9da6-40d8198ecdc7" />
 
-![Chatbot Preview](./public/screenshot-placeholder.png)
 
 ## 🌐 Deployment Link
 
-*(Add your live deployment link here once hosted, e.g., on Vercel or Netlify)*
-
-**Live Demo:** [Insert Link Here](#)
+**Live Demo:** [Click me!](https://codefaq-chatbot-ft.vercel.app/)
 
 ## 🤝 Contributing
 
