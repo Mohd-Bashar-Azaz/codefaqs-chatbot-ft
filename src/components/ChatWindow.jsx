@@ -3,6 +3,7 @@ import Message from "./Message";
 
 // An array of questions we want to suggest to the user
 const SUGGESTED_QUESTIONS = [
+  "Who are you and what subjects do you cover?",
   "What is React?",
   "What is MERN stack?",
   "Docker vs Kubernetes",
@@ -32,15 +33,18 @@ function ChatWindow({ messages, onSend }) {
       
       {/* Suggestion Buttons placed inside the chat window so they scroll */}
       <div className="suggestions">
-        {SUGGESTED_QUESTIONS.map((q, index) => (
-          <button 
-            key={index} 
-            className="suggestion-btn" 
-            onClick={() => onSend(q)}
-          >
-            {q}
-          </button>
-        ))}
+        {SUGGESTED_QUESTIONS.map((q, index) => {
+          const isPurple = q.toLowerCase().includes("who are you");
+          return (
+            <button 
+              key={index} 
+              className={`suggestion-btn ${isPurple ? "purple-btn" : ""}`}
+              onClick={() => onSend(q)}
+            >
+              {q}
+            </button>
+          );
+        })}
       </div>
 
       {/* 3. Place the empty div at the very end of the message list */}

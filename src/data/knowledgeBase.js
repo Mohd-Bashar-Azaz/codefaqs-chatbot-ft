@@ -1,3 +1,13 @@
+const BOT_DESCRIPTION = `I am a Programming FAQ Chatbot designed to help you learn about computer science and programming topics. I can answer questions about:
+• Programming Languages: React, JavaScript, HTML, CSS, Tailwind CSS, Shadcn, Java, Python
+• Web Development & Backend: MERN Stack, Node.js, Express.js, APIs, JWT, Middleware
+• Databases: MongoDB, SQL (MySQL, PostgreSQL), DBMS
+• Computer Science Concepts: OOP, Compilers vs Interpreters, Polymorphism
+• Artificial Intelligence & Machine Learning: AI, Machine Learning, Deep Learning, Neural Networks
+• Operating Systems & Networking: OS, Kernels, Processes vs Threads, OSI Model, TCP/UDP, DNS, Routers/Switches
+• DevOps & Cloud: DevOps, CI/CD, AWS S3, Docker, Kubernetes
+• Version Control: Git & GitHub`;
+
 export const knowledgeBase = {
   "compiler vs interpreter":
     "Compiler translates the entire program before execution while an interpreter executes code line by line.",
@@ -183,7 +193,16 @@ export const knowledgeBase = {
     "Git push is the command used to upload your local repository content (your commits) to a remote repository (like GitHub).",
 
   "what is git pull":
-    "Git pull is a command used to fetch and download content from a remote repository and immediately update the local repository to match that content."
+    "Git pull is a command used to fetch and download content from a remote repository and immediately update the local repository to match that content.",
+
+  "who are you and what subjects do you cover": BOT_DESCRIPTION,
+  "what are you and what subjects do you cover": BOT_DESCRIPTION,
+  "what are you and what can you tell me related to which subjects": BOT_DESCRIPTION,
+  "who are you": BOT_DESCRIPTION,
+  "what are you": BOT_DESCRIPTION,
+  "what can you tell me": BOT_DESCRIPTION,
+  "what subjects can you tell me about": BOT_DESCRIPTION,
+  "what subjects do you cover": BOT_DESCRIPTION
 };
 
 export default knowledgeBase;
